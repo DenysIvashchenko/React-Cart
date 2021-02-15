@@ -1,0 +1,61 @@
+#root {
+  padding-top: 30px;
+  
+}
+h1 {
+  text-align: center;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background: #f1f1f1;
+}
+
+.goods-field {
+  width: 90%;
+  margin: 0 auto;
+}
+.goods-field::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.goods-block {
+  width: 15%;
+  min-height: 80px;
+  margin: 1%;
+  padding: 10px;
+  border: 1px solid black;
+  float: left;
+  text-align: center;
+}
+
+.goods-block img {
+  max-width: 80%;
+  display: block;
+  margin: 20px auto;
+}
+
+/* ======= Cart.js ====== */
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 10px auto;
+  width: 70%;
+}
+th {
+  background-color:rgb(255, 190, 68);
+}
+th,td {
+border: 1px solid black;
+padding: 5px;
+text-align: center;
+vertical-align: middle;
+}
+
+td img {
+  width: 30px;
+}
